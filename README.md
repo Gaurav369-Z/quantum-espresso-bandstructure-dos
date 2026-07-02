@@ -21,22 +21,26 @@ This project perform Density Functional Theory (DFT) calculations using Quantum 
 
 ## Computational Workflow
 
-Crystal Structure
-        │
-        ▼
- SCF Calculation
-        │
-        ▼
-NSCF Calculation
-      ┌─┴────────────┐
-      ▼              ▼
-Band Structure     DOS Calculation
-      │              │
-      ▼              ▼
- Band Plot       DOS Plot
-      └──────┬───────┘
-             ▼
- Electronic Structure Analysis
+```mermaid
+flowchart TD
+    A[Crystal Structure]
+    B[SCF Calculation]
+    C[NSCF Calculation]
+    D[Band Structure Calculation]
+    E[DOS Calculation]
+    F[Band Structure Plot]
+    G[DOS Plot]
+    H[Electronic Structure Analysis]
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    D --> F
+    E --> G
+    F --> H
+    G --> H
+```
 
 ## Results
 - Combined Band Structure + DOS plot
