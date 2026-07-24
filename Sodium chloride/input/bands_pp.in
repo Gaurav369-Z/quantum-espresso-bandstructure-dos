@@ -1,5 +1,0 @@
-&BANDS
-  prefix = 'aiida'
-  outdir = './out/'
-  filband = 'NaCl_bands.dat'
-/
