@@ -15,9 +15,9 @@ This project perform Density Functional Theory (DFT) calculations using Quantum 
 - xmgrace (Result plotting)
 
 ## Materials Studied
--
--
--
+- Platinum
+- Sodium chloride
+- Zinc Sulfide
 
 ## Computational Workflow
 
