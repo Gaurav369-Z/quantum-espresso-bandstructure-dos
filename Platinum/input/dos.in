@@ -1,0 +1,7 @@
+&DOS
+  prefix='aiida',
+  outdir='./out/',
+  fildos='Pt_dos.dat',
+  emin=-17.7,
+  emax=27.7
+/
